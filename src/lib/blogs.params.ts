@@ -6,7 +6,8 @@ import Dev from '$lib/Icons/Dev.svelte';
 const MY_BLOGS = [
 	{
 		slug: 'regex-guide',
-		description: 'Creating awesome applications for customers.',
+		description:
+			'Regex can be used to perform bulk edits/deletes/substitution, extracting relevant texts and many more use cases that can save you a ton of time.',
 		skills: getSkills('python', 'bash'),
 		name: 'A practical guide to regular expression with real life examples',
 		color: '#ffffff',

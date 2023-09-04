@@ -153,8 +153,8 @@ const MY_PROJECTS: Array<Project> = [
 		description:
 			'Tea/Coffe ordering site tailored for IUT dormitory. Uses pocketbase as the backend/database.',
 		links: [
-			{ to: 'https://caffeine.fly.dev/', label: 'Deployment' },
-			githubLink('https://github.com/renzhamin/caffeine')
+			githubLink('https://github.com/renzhamin/caffeine'),
+			{ to: 'https://caffeine.fly.dev/', label: 'Deployment' }
 		],
 		logo: Assets.Caffeine,
 		name: 'caffeine',

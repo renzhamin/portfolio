@@ -11,7 +11,7 @@
 	<title>{useTitle(title, TITLE_SUFFIX)}</title>
 </svelte:head>
 
-<div class="flex justify-center items-center h-full px-48 pb-16">
+<div class="flex justify-center items-center h-full px-12 md:px-48 pb-16">
 	<div>
 		<Markdown content={about} />
 	</div>

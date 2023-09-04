@@ -38,6 +38,13 @@
 					<Icon icon={getPlatfromIcon(link.platform)} color={'var(--accent-text)'} />
 				</a>
 			{/each}
+			<a
+				href="https://blog.renzhamin.com"
+				target="_blank"
+				class="px-4 md:mr-14 lg:mr-18 block mt-8 md:mt-1 md:float-right text-gray-400 dark:text-gray-600"
+			>
+				Personal Blog
+			</a>
 		</div>
 	</div>
 	<Carrousel items={skills ?? MY_SKILLS} />
@@ -63,6 +70,7 @@
 			display: flex;
 			flex-direction: column;
 			flex: 1;
+			margin: 10px;
 			gap: 10px;
 		}
 
