@@ -78,7 +78,8 @@ const Assets = {
 	Lightchess: a('lightchess.png'),
 	AWayOut: a('awayout.png'),
 	Caffeine: a('caffeine.png'),
-	Zoomer: a('zoomer.png')
+	Zoomer: a('zoomer.png'),
+	ALPR: a('alpr.png')
 };
 
 export default Assets;

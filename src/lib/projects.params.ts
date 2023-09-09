@@ -47,6 +47,21 @@ const MY_PROJECTS: Array<Project> = [
 		type: 'Web App'
 	},
 	{
+		slug: 'alpr',
+		name: 'bengali-alpr',
+		logo: Assets.ALPR,
+		color: '#fc0307',
+		description:
+			'Automatic license plate recognition for vehicles in bangladesh. Uses state of art detection model yolov8 and a deep learning network for character recognition.',
+		period: {
+			from: new Date('Aug 19, 2023'),
+			to: new Date('Sep 9, 2023')
+		},
+		links: [githubLink('https://github.com/renzhamin/bengali-alpr')],
+		skills: getSkills('python'),
+		type: 'Deep Learning'
+	},
+	{
 		slug: 'lightchess-desktop',
 		color: '#ff3e00',
 		description:
