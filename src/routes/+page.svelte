@@ -25,7 +25,7 @@
 </svelte:head>
 <div class="home">
 	<div class="home-section">
-		<MainTitle classes="!text-left">{name} {lastName}</MainTitle>
+		<MainTitle classes="md:!text-left">{name} {lastName}</MainTitle>
 		<p class="home-subtitle">{description}</p>
 		<div class="home-social">
 			{#each links as link}
