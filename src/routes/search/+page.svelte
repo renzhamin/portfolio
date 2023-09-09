@@ -5,7 +5,7 @@
 	import { base } from '$app/paths';
 	import { SEARCH } from '$lib/params';
 	import SearchPage from '$lib/components/SearchPage.svelte';
-	import MY_EXPERIENCES from '$lib/experiences.params';
+	/* import MY_EXPERIENCES from '$lib/experiences.params'; */
 	import MY_PROJECTS from '$lib/projects.params';
 	import MY_SKILLS from '$lib/skills.params';
 	import MY_BLOGS from '$lib/blogs.params';
@@ -51,23 +51,23 @@
 					data,
 					icon: Icons.Skills,
 					name: data.name,
-					to: `skills/${data.slug}`
+					to: `skills?q=${data.name}`
 				})
 			)
 		);
 
-		result.push(
-			...MY_EXPERIENCES.filter(
-				(item) =>
-					query &&
-					(item.name.toLowerCase().includes(query) || item.company.toLowerCase().includes(query))
-			).map<Item>((data) => ({
-				data,
-				icon: Icons.Job,
-				name: `${data.name} @ ${data.company}`,
-				to: `experience?q=${data.name}`
-			}))
-		);
+		/* result.push( */
+		/* 	...MY_EXPERIENCES.filter( */
+		/* 		(item) => */
+		/* 			query && */
+		/* 			(item.name.toLowerCase().includes(query) || item.company.toLowerCase().includes(query)) */
+		/* 	).map<Item>((data) => ({ */
+		/* 		data, */
+		/* 		icon: Icons.Job, */
+		/* 		name: `${data.name} @ ${data.company}`, */
+		/* 		to: `experience?q=${data.name}` */
+		/* 	})) */
+		/* ); */
 
 		result.push(
 			...MY_BLOGS.filter(
