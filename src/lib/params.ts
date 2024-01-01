@@ -53,8 +53,7 @@ export const HOME: HomePageParams = {
 	name: 'Tasnim',
 	lastName: 'Ferdous',
 	alias: 'renzhamin',
-	description: `Software Engineer | CTF Player | Final year Computer Science Student.\n
-    I go by the alias renzhamin in all platforms.`,
+	description: `Software Engineer | CTF Player | Final year Computer Science Student.\n`,
 	links: [
 		{ platform: Platform.GitHub, link: 'https://github.com/renzhamin' },
 		{
