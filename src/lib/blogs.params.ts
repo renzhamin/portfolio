@@ -2,6 +2,7 @@ import Assets from './data/assets';
 import { getSkills } from './skills.params';
 import FreeCodeCamp from '$lib/Icons/FreeCodeCamp.svelte';
 import Dev from '$lib/Icons/Dev.svelte';
+import Blog from '$lib/Icons/Blog.svelte';
 
 const MY_BLOGS = [
 	{
@@ -23,6 +24,15 @@ const MY_BLOGS = [
 		color: '#ffffff',
 		link: 'https://dev.to/renzhamin/authenticate-and-protect-rest-api-routes-with-jwt-and-refersh-token-rotation-1lg5',
 		icon: Dev
+	},
+	{
+		slug: 'hdbscan-clustering',
+		description: 'HDBSCAN is a clustering technique that addresses the limitations of DBSCAN',
+		skills: getSkills(),
+		name: 'HDBSCAN - an efficient and flexible clustering technique',
+		color: '#ffffff',
+		link: 'https://blog.renzhamin.com/hdbscan',
+		icon: Blog
 	}
 ];
 
